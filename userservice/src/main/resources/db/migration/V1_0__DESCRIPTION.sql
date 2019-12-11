@@ -7,7 +7,7 @@ CREATE TABLE user_details
     last_name     varchar(250) DEFAULT NULL,
     created_on    TIMESTAMP    DEFAULT CURRENT_TIMESTAMP,
     deleted_on    TIMESTAMP    null default null,
-    leagal_id     varchar(10)  NOT NULL,
+    legal_id      varchar(20)  NOT NULL,
     date_of_birth TIMESTAMP    DEFAULT CURRENT_TIMESTAMP,
     gender        int(11)      NOT NULL,
     PRIMARY KEY (id),
