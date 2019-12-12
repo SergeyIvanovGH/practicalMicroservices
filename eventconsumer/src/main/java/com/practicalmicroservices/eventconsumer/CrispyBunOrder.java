@@ -1,4 +1,4 @@
-package com.practicalmicroservices.eventproducer;
+package com.practicalmicroservices.eventconsumer;
 
 import java.io.Serializable;
 import java.util.Date;
