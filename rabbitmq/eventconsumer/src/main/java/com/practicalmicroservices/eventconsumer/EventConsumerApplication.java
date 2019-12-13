@@ -1,7 +1,6 @@
 package com.practicalmicroservices.eventconsumer;
 
 import org.springframework.amqp.core.Queue;
-import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.boot.SpringApplication;
@@ -10,7 +9,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.messaging.handler.annotation.Payload;
 
 @SpringBootApplication
-@EnableRabbit
 @RabbitListener(queues = "crispyBunOrder")
 public class EventConsumerApplication {
 
